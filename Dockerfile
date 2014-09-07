@@ -5,6 +5,7 @@ ADD config.ru .
 
 RUN gem install rack
 RUN gem install geminabox
+VOLUME ["/geminabox-gems"]
 
 CMD rackup
 
